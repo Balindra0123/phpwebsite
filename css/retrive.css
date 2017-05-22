@@ -1,0 +1,22 @@
+.retrive_data{
+	
+
+}
+th{ 
+background: green;
+	
+}
+tr:nth-child(even){
+	background-color: #f2f2f2;
+	}
+th,td{
+	border: solid 1px blue;
+	text-align: left;
+	padding: 20px;
+}
+.t1{
+	text-align: center;
+	font-size: 50px;
+	color: orange;
+	
+}

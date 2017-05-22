@@ -1,0 +1,33 @@
+.logout{
+	float:right;
+	margin-right: 30px;
+}
+.welcome{
+	text-align:center;
+	color: green;
+}
+.profile_pic{
+	height:200px;
+	width: 200px;
+	border: solid 3px orange;
+	margin-left: 10px;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.upload_icon{
+	background-image: url("images/profile_icon.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 40px;
+	width: 40px;
+	float: right;
+	margin-top: 155px;
+	display: none;
+}
+.profile_pic:hover .upload_icon{
+	display: block;
+}
+.upload_file{
+	margin-left: 10px;
+	display: none;
+}
